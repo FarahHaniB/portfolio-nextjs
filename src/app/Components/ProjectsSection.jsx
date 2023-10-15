@@ -70,7 +70,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section>
+    <section id="projects">
       <h2 className="text-center text-4xl font-bold text-black mt-4 py-8">
         My Projects
       </h2>

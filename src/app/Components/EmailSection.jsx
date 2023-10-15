@@ -59,13 +59,13 @@ const EmailSection = () => {
               htmlFor="name"
               className="text-black block mb-2 text-sm font-medium"
             >
-              Name
+              Your Name
             </label>
             <input
               type="text"
               id="name"
               required
-              placeholder="Your Name"
+              placeholder="Name"
               className="border-2 rounded-lg p-2 flex border-gray-300 w-full text-black"
               {...register("name", {
                 required: true,
@@ -92,7 +92,7 @@ const EmailSection = () => {
               type="email"
               id="email"
               required
-              placeholder="email"
+              placeholder="Email"
               className="border-2 rounded-lg p-2 flex border-gray-300 w-full text-black"
               {...register("email", {
                 required: true,

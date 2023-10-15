@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <section className="lg:py-16">
+    <section className="lg:py-20">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -26,7 +26,7 @@ const HeroSection = () => {
                 // Same substring at the start will only be typed out once, initially
                 "Farah",
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "a Self-taught Developer",
+                "an Aspiring Web Developer",
                 1000,
                 "a Japanese Speaker",
                 1000,

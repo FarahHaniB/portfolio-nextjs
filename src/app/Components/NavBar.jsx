@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
@@ -22,9 +22,21 @@ const navLinks = [
 
 const NavBar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
+  const [shadow, setShadow] = useState(false);
+
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 90) {
+        setShadow(true);
+      } else {
+        setShadow(false);
+      }
+    };
+    window.addEventListener("scroll", handleShadow);
+  });
 
   return (
-    <nav className="fixed top-0 left-0 right-0 shadow-xl z-10 bg-white bg-opacity-100">
+    <nav className={shadow ? "fixed top-0 left-0 right-0 shadow-xl z-10 bg-white bg-opacity-100" : "fixed top-0 left-0 right-0 z-10 bg-white bg-opacity-100"}>
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
@@ -34,11 +46,17 @@ const NavBar = () => {
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
-            <button onClick={() => setNavbarOpen(true)} className="flex items-center px-3 py-2 border rounded border-slate-500 text-slate-500 hover:text-black hover:border-black">
+            <button
+              onClick={() => setNavbarOpen(true)}
+              className="flex items-center px-3 py-2 border rounded border-slate-500 text-slate-500 hover:text-black hover:border-black"
+            >
               <Bars3Icon className="h-5 w-5" />
             </button>
           ) : (
-            <button onClick={() => setNavbarOpen(false)} className="flex items-center px-3 py-2 border rounded border-slate-500 text-slate-500 hover:text-black hover:border-black">
+            <button
+              onClick={() => setNavbarOpen(false)}
+              className="flex items-center px-3 py-2 border rounded border-slate-500 text-slate-500 hover:text-black hover:border-black"
+            >
               <XMarkIcon className="h-5 w-5" />
             </button>
           )}
@@ -53,7 +71,7 @@ const NavBar = () => {
           </ul>
         </div>
       </div>
-      {navbarOpen ? <MenuOverlay links={navLinks}/> : null}
+      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
     </nav>
   );
 };
