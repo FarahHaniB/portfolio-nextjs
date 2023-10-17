@@ -1,7 +1,7 @@
 "use client";
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
-import pic from "../../../public/Images/coding-home.jpg";
+import pic from "../public/Images/coding-home.jpg";
 import TabButton from "./TabButton";
 import { motion } from "framer-motion";
 
@@ -64,6 +64,7 @@ const AboutSection = () => {
           width={500}
           height={500}
           className="mx-auto"
+          priority={true}
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-black mb-4">About Me</h2>
