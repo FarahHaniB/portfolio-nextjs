@@ -1,5 +1,5 @@
-"use client";
-import React, { useState, useRef } from "react";
+// "use client";
+import React, { useRef } from "react";
 import ProjectItem from "./ProjectItem";
 import { motion, useInView } from "framer-motion";
 
