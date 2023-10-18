@@ -5,26 +5,16 @@ import pic from "../public/Images/coding-home.jpg";
 import TabButton from "./TabButton";
 import { motion } from "framer-motion";
 
-
 const TAB_DATA = [
-  {
-    title: "Skills",
-    id: "skills",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Javascript</li>
-        <li>React</li>
-        <li>Next.js</li>
-      </ul>
-    ),
-  },
   {
     title: "Education",
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>University</li>
-        <li>UU</li>
+        <li>Utsunomiya University, Japan</li>
+        <p className="italic">
+          Degree in Electrical and Electronic Engineering
+        </p>
       </ul>
     ),
   },
@@ -33,15 +23,27 @@ const TAB_DATA = [
     id: "certification",
     content: (
       <ul className="list-disc pl-2">
-        <li>Degree</li>
-        <li>Udemy</li>
+        <li>Japanese Language Proficiency Test (JLPT) : N2</li>
+        <li>TOEIC : Marks 900</li>
+        <li>TOEFL : Marks 85</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Udemy",
+    id: "udemy",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>The Complete Web Developer in 2023: Zero to Mastery</li>
+        <li>The Linux Command Line Bootcamp: Beginner To Power User</li>
+        <li>React - The Complete Guide (Academind)</li>
       </ul>
     ),
   },
 ];
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("skills");
+  const [tab, setTab] = useState("education");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
@@ -69,19 +71,17 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-black mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
-            molestias, dolorum nemo tempora, assumenda eaque quas ipsa iusto,
-            sunt expedita repellat! Odit harum quidem unde adipisci aliquid
-            dolores similique debitis.
+            I started my journey to become a web developer during an internship
+            at a startup company, where I embarked on a journey of learning web
+            development from scratch. I gained proficiency in modern JavaScript
+            frameworks like ReactJS and Next.js. Through hands-on experience,
+            I've successfully delivered multiple web projects, showcasing my
+            expertise in data fetching using methods such as Fetch API, React
+            Query, and GraphQL. I'm excited to bring this blend of technical
+            proficiency and problem-solving skills to create seamless and
+            user-friendly web experiences.
           </p>
           <div className="flex flex-row justify-start mt-8">
-            <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
-            >
-              {" "}
-              Skills{" "}
-            </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
@@ -95,6 +95,13 @@ const AboutSection = () => {
             >
               {" "}
               Certification{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("udemy")}
+              active={tab === "udemy"}
+            >
+              {" "}
+              Udemy{" "}
             </TabButton>
           </div>
           <div className="mt-8">

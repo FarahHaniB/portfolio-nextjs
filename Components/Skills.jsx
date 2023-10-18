@@ -1,7 +1,4 @@
 import React from "react";
-// import Image from "next/image";
-
-// import {} from '../../../public/Images/SkillsIcon/html.png'
 
 const Skills = () => {
   return (
@@ -14,8 +11,6 @@ const Skills = () => {
               <img
                 src="/Images/SkillsIcon/html-icon.png"
                 className="h-12 w-auto"
-                // width={50}
-                // height={50}
                 alt="/"
               />
             </div>
@@ -31,8 +26,6 @@ const Skills = () => {
               <img
                 src="/Images/SkillsIcon/css-icon.png"
                 className="h-12 w-auto"
-                // width={50}
-                // height={50}
                 alt="/"
               />
             </div>
@@ -48,8 +41,6 @@ const Skills = () => {
               <img
                 src="/Images/SkillsIcon/js-icon.png"
                 className="h-12 w-auto"
-                // width={50}
-                // height={50}
                 alt="/"
               />
             </div>
@@ -65,8 +56,6 @@ const Skills = () => {
               <img
                 src="/Images/SkillsIcon/react-icon.png"
                 className="h-12 w-auto"
-                // width={50}
-                // height={50}
                 alt="/"
               />
             </div>
@@ -82,8 +71,6 @@ const Skills = () => {
               <img
                 src="/Images/SkillsIcon/chakraui-icon.png"
                 className="h-12 w-auto"
-                // width={50}
-                // height={50}
                 alt="/"
               />
             </div>
@@ -99,8 +86,6 @@ const Skills = () => {
               <img
                 src="/Images/SkillsIcon/firebase-icon.png"
                 className="h-12 w-auto"
-                // width={50}
-                // height={50}
                 alt="/"
               />
             </div>
@@ -116,8 +101,6 @@ const Skills = () => {
               <img
                 src="/Images/SkillsIcon/tailwind-css-icon.png"
                 className="h-12 w-auto"
-                // width={50}
-                // height={50}
                 alt="/"
               />
             </div>
@@ -133,8 +116,6 @@ const Skills = () => {
               <img
                 src="/Images/SkillsIcon/vscode-icon.png"
                 className="h-12 w-auto"
-                // width={50}
-                // height={50}
                 alt="/"
               />
             </div>
@@ -150,8 +131,6 @@ const Skills = () => {
               <img
                 src="/Images/SkillsIcon/nextjs-icon.png"
                 className="h-12 w-auto"
-                // width={50}
-                // height={50}
                 alt="/"
               />
             </div>
@@ -167,8 +146,6 @@ const Skills = () => {
               <img
                 src="/Images/SkillsIcon/ts-icon.png"
                 className="h-12 w-auto"
-                // width={50}
-                // height={50}
                 alt="/"
               />
             </div>
@@ -177,7 +154,6 @@ const Skills = () => {
             </div>
           </div>
         </div>
-
       </div>
     </section>
   );

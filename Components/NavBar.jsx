@@ -5,23 +5,7 @@ import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 
-// const navLinks = [
-//   {
-//     title: "About",
-//     path: "#about",
-//   },
-//   {
-//     title: "Projects",
-//     path: "#projects",
-//   },
-//   {
-//     title: "Contact",
-//     path: "#contact",
-//   },
-// ];
-
 const NavBar = () => {
-  
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [shadow, setShadow] = useState(false);
 
@@ -29,25 +13,19 @@ const NavBar = () => {
     {
       title: "About",
       path: "#about",
-      onClick: () => setNavbarOpen(false)
+      onClick: () => setNavbarOpen(false),
     },
     {
       title: "Projects",
       path: "#projects",
-      onClick: () => setNavbarOpen(false)
+      onClick: () => setNavbarOpen(false),
     },
     {
       title: "Contact",
       path: "#contact",
-      onClick: () => setNavbarOpen(false)
+      onClick: () => setNavbarOpen(false),
     },
   ];
-
-  // const [nav, setNav] = useState(false);
-
-  // const handleNav = () => {
-  //   setNav(!nav);
-  // };
 
   useEffect(() => {
     const handleShadow = () => {
@@ -68,7 +46,7 @@ const NavBar = () => {
           : "fixed top-0 left-0 right-0 z-10 bg-white bg-opacity-100"
       }
     >
-      <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
+      <div className="flex container lg:py-3 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
           className="text-2xl md:text-5xl text-[#070f4e] font-semibold"

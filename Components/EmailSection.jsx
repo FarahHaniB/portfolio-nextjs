@@ -21,14 +21,15 @@ const EmailSection = () => {
   };
 
   return (
-    <section id='contact' className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative">
+    <section
+      id="contact"
+      className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
+    >
       <div>
         <h5 className="text-xl font-bold my-2 text-black">Let's Connect</h5>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-          nesciunt, est explicabo possimus saepe qui consectetur unde blanditiis
-          harum eveniet labore architecto hic cum aliquam voluptates nobis
-          necessitatibus odio aliquid!
+        <p className="text-[#868c91] mb-4 max-w-md">
+          I am open to new opportunities in web development and eager to explore
+          potential ventures. Contact me and let's talk!
         </p>
         <div className="socials flex flex-row gap-2 text-black">
           <Link
@@ -53,7 +54,6 @@ const EmailSection = () => {
           method="POST"
           className="flex flex-col"
         >
-
           <div className="mb-6">
             <label
               htmlFor="name"
