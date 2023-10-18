@@ -96,7 +96,7 @@ const Skills = () => {
         </div>
 
         <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-          <div className="grid grid-rows-2 gap-12 items-center justify-center">
+          <div className="grid grid-rows-2 gap-4 items-center justify-center">
             <div className="m-auto">
               <img
                 src="/Images/SkillsIcon/tailwind-css-icon.png"
