@@ -75,9 +75,9 @@ const AboutSection = () => {
             at a startup company, where I embarked on a journey of learning web
             development from scratch. I gained proficiency in modern JavaScript
             frameworks like ReactJS and Next.js. Through hands-on experience,
-            I've successfully delivered multiple web projects, showcasing my
+            I&apos;ve successfully delivered multiple web projects, showcasing my
             expertise in data fetching using methods such as Fetch API, React
-            Query, and GraphQL. I'm excited to bring this blend of technical
+            Query, and GraphQL. I&apos;m excited to bring this blend of technical
             proficiency and problem-solving skills to create seamless and
             user-friendly web experiences.
           </p>

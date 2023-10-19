@@ -24,7 +24,7 @@ const HeroSection = () => {
         >
           <h1 className="text-black h-[130px] mb-6 text-4xl sm:text-5xl lg:text-7xl lg:h-[250px] lg:leading-tight font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#070f4e] via-[#2772db] to-[#3ab1c8]">
-              Hello, I'm
+              Hello, I&apos;m
             </span>{" "}
             <br />
             <TypeAnimation
@@ -43,10 +43,10 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#646668] text-base sm:text-lg mb-6 lg:text-xl sm:pr-7">
-            I'm an aspiring web developer fluent in Malay, English and Japanese.
+            I&apos;m an aspiring web developer fluent in Malay, English and Japanese.
             Equiped with strong foundation in HTML, CSS, JavaScript, React, and
-            more, I'm dedicated to crafting dynamic and user-friendly websites.
-            Explore my portfolio to see my recent projects. Let's build
+            more, I&apos;m dedicated to crafting dynamic and user-friendly websites.
+            Explore my portfolio to see my recent projects. Let&apos;s build
             something amazing!
           </p>
           <div>
