@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Skills = () => {
   return (
@@ -8,9 +9,11 @@ const Skills = () => {
         <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
           <div className="grid grid-rows-2 gap-4 items-center justify-center">
             <div className="m-auto">
-              <img
+              <Image
                 src="/Images/SkillsIcon/html-icon.png"
-                className="h-12 w-auto"
+                width={50}
+                height={50}
+                // className="h-12 w-auto"
                 alt="/"
               />
             </div>
@@ -23,9 +26,11 @@ const Skills = () => {
         <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
           <div className="grid grid-rows-2 gap-2 items-center justify-center">
             <div className="m-auto">
-              <img
+              <Image
                 src="/Images/SkillsIcon/css-icon.png"
-                className="h-12 w-auto"
+                width={50}
+                height={50}
+                // className="h-12 w-auto"
                 alt="/"
               />
             </div>
@@ -38,9 +43,11 @@ const Skills = () => {
         <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
           <div className="grid grid-rows-2 gap-4 items-center justify-center">
             <div className="m-auto">
-              <img
+              <Image
                 src="/Images/SkillsIcon/js-icon.png"
-                className="h-12 w-auto"
+                width={50}
+                height={50}
+                // className="h-12 w-auto"
                 alt="/"
               />
             </div>
@@ -53,9 +60,11 @@ const Skills = () => {
         <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
           <div className="grid grid-rows-2 gap-5 items-center justify-center">
             <div className="m-auto">
-              <img
+              <Image
                 src="/Images/SkillsIcon/react-icon.png"
-                className="h-12 w-auto"
+                width={50}
+                height={50}
+                // className="h-12 w-auto"
                 alt="/"
               />
             </div>
@@ -68,9 +77,11 @@ const Skills = () => {
         <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
           <div className="grid grid-rows-2 gap-4 items-center justify-center">
             <div className="m-auto">
-              <img
+              <Image
                 src="/Images/SkillsIcon/chakraui-icon.png"
-                className="h-12 w-auto"
+                width={50}
+                height={50}
+                // className="h-12 w-auto"
                 alt="/"
               />
             </div>
@@ -83,9 +94,11 @@ const Skills = () => {
         <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
           <div className="grid grid-rows-2 gap-4 items-center justify-center">
             <div className="m-auto">
-              <img
+              <Image
                 src="/Images/SkillsIcon/firebase-icon.png"
-                className="h-12 w-auto"
+                width={50}
+                height={50}
+                // className="h-12 w-auto"
                 alt="/"
               />
             </div>
@@ -98,9 +111,11 @@ const Skills = () => {
         <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
           <div className="grid grid-rows-2 gap-4 items-center justify-center">
             <div className="m-auto">
-              <img
+              <Image
                 src="/Images/SkillsIcon/tailwind-css-icon.png"
-                className="h-12 w-auto"
+                width={50}
+                height={50}
+                // className="h-12 w-auto"
                 alt="/"
               />
             </div>
@@ -113,9 +128,11 @@ const Skills = () => {
         <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
           <div className="grid grid-rows-2 gap-4 items-center justify-center">
             <div className="m-auto">
-              <img
+              <Image
                 src="/Images/SkillsIcon/vscode-icon.png"
-                className="h-12 w-auto"
+                width={50}
+                height={50}
+                // className="h-12 w-auto"
                 alt="/"
               />
             </div>
@@ -128,9 +145,11 @@ const Skills = () => {
         <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
           <div className="grid grid-rows-2 gap-4 items-center justify-center">
             <div className="m-auto">
-              <img
+              <Image
                 src="/Images/SkillsIcon/nextjs-icon.png"
-                className="h-12 w-auto"
+                width={50}
+                height={50}
+                // className="h-12 w-auto"
                 alt="/"
               />
             </div>
@@ -143,9 +162,11 @@ const Skills = () => {
         <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
           <div className="grid grid-rows-2 gap-4 items-center justify-center">
             <div className="m-auto">
-              <img
+              <Image
                 src="/Images/SkillsIcon/ts-icon.png"
-                className="h-12 w-auto"
+                width={50}
+                height={50}
+                // className="h-12 w-auto"
                 alt="/"
               />
             </div>
