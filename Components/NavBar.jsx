@@ -11,6 +11,11 @@ const NavBar = () => {
 
   const navLinks = [
     {
+      title: "Home",
+      path: "/",
+      onClick: () => setNavbarOpen(false),
+    },
+    {
       title: "About",
       path: "#about",
       onClick: () => setNavbarOpen(false),
@@ -49,6 +54,7 @@ const NavBar = () => {
       <div className="flex container lg:py-3 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
+          onClick={() => setNavbarOpen(false)}
           className="text-2xl md:text-5xl text-[#070f4e] font-semibold"
         >
           <span className="text-[#3ab1c8]">FH</span>B

@@ -20,6 +20,14 @@ const projectsData = [
     gitUrl: "https://github.com/FarahHaniB/Netflix-clone",
     previewUrl: "https://netflix-react-js-vercel.vercel.app",
   },
+  {
+    id: 3,
+    title: "Property",
+    description: "Testing",
+    image: "/Images/pokemon-RQ.png",
+    gitUrl: "/property",
+    previewUrl: "https://netflix-react-js-vercel.vercel.app",
+  },
 ];
 
 const ProjectsSection = () => {

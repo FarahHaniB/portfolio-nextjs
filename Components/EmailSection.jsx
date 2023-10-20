@@ -33,7 +33,7 @@ const EmailSection = () => {
         </p>
         <div className="socials flex flex-row gap-2 text-black">
           <Link
-            href="github.com"
+            href="https://github.com/FarahHaniB"
             className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover-scale-110 ease-in duration-300"
           >
             <FaGithub />
