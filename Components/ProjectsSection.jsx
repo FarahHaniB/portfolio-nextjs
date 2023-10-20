@@ -9,16 +9,16 @@ const projectsData = [
     title: "Pokemon Finder",
     description: "Using Poke-Api",
     image: "/Images/poke-api.png",
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/FarahHaniB/pokemon-fetch-api",
+    previewUrl: "https://pokemon-fetch-updated.vercel.app",
   },
   {
     id: 2,
     title: "Netflix",
     description: "Netflix clone using ReactJS",
     image: "/Images/netflix-clone.png",
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/FarahHaniB/Netflix-clone",
+    previewUrl: "https://netflix-react-js-vercel.vercel.app",
   },
 ];
 
