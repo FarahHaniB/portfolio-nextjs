@@ -25,8 +25,9 @@ const projectsData = [
     title: "Property",
     description: "Testing",
     image: "/Images/pokemon-RQ.png",
-    gitUrl: "/property",
-    previewUrl: "https://netflix-react-js-vercel.vercel.app",
+    // gitUrl: "/property",
+    gitUrl: "/",
+    previewUrl: "https://pokemon-react-query-seven.vercel.app",
   },
 ];
 
