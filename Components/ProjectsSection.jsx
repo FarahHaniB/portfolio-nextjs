@@ -14,7 +14,7 @@ const projectsData = [
   },
     {
     id: 2,
-    title: "Pokemon Finder",
+    title: "Pokemon Finder (React Query)",
     description: "Created using Fetch API,  React Query, ReactJS, Chakra UI",
     image: "/Images/pokemon-RQ.png",
     // gitUrl: "/property",
