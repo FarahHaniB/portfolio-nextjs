@@ -7,15 +7,15 @@ const projectsData = [
   {
     id: 1,
     title: "Pokemon Finder",
-    description: "Created using Fetch API, ReactJS, Chakra UI",
+    description: "ReactJS with Fetch API and Chakra UI",
     image: "/Images/poke-api.png",
     gitUrl: "https://github.com/FarahHaniB/pokemon-fetch-api",
     previewUrl: "https://pokemon-fetch-updated.vercel.app",
   },
     {
     id: 2,
-    title: "Pokemon Finder (React Query)",
-    description: "Created using Fetch API,  React Query, ReactJS, Chakra UI",
+    title: "Pokemon Finder v2",
+    description: "ReactJS with Fetch API, React Query and Chakra UI",
     image: "/Images/pokemon-RQ.png",
     // gitUrl: "/property",
     gitUrl: "https://github.com/FarahHaniB/pokemon-react-query",
@@ -24,7 +24,7 @@ const projectsData = [
   {
     id: 3,
     title: "Netflix",
-    description: "Netflix clone using ReactJS, TailwindCSS, Firebase",
+    description: "Netflix clone with ReactJS, TailwindCSS and Firebase",
     image: "/Images/netflix-clone.png",
     gitUrl: "https://github.com/FarahHaniB/Netflix-clone",
     previewUrl: "https://netflix-react-js-vercel.vercel.app",
