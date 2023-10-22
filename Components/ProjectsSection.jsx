@@ -7,27 +7,27 @@ const projectsData = [
   {
     id: 1,
     title: "Pokemon Finder",
-    description: "Using Poke-Api",
+    description: "Fetch API",
     image: "/Images/poke-api.png",
     gitUrl: "https://github.com/FarahHaniB/pokemon-fetch-api",
     previewUrl: "https://pokemon-fetch-updated.vercel.app",
   },
-  {
+    {
     id: 2,
+    title: "Pokemon Finder",
+    description: "React Query",
+    image: "/Images/pokemon-RQ.png",
+    // gitUrl: "/property",
+    gitUrl: "https://github.com/FarahHaniB/pokemon-react-query",
+    previewUrl: "https://pokemon-react-query-seven.vercel.app",
+  },
+  {
+    id: 3,
     title: "Netflix",
     description: "Netflix clone using ReactJS",
     image: "/Images/netflix-clone.png",
     gitUrl: "https://github.com/FarahHaniB/Netflix-clone",
     previewUrl: "https://netflix-react-js-vercel.vercel.app",
-  },
-  {
-    id: 3,
-    title: "Property",
-    description: "Testing",
-    image: "/Images/pokemon-RQ.png",
-    // gitUrl: "/property",
-    gitUrl: "/",
-    previewUrl: "https://pokemon-react-query-seven.vercel.app",
   },
 ];
 
