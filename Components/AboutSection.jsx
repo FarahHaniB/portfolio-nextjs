@@ -11,7 +11,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Utsunomiya University, Japan</li>
+        <li className="font-bold">Utsunomiya University, Japan</li>
         <p className="italic">
           Degree in Electrical and Electronic Engineering
         </p>
