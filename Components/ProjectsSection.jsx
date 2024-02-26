@@ -32,7 +32,7 @@ const projectsData = [
   {
     id: 4,
     title: "Amazon",
-    description: "This page is under maintenance. Sorry for inconvenience.",
+    description: "This page is currently under maintenance. Sorry for inconvenience.",
     image: "/Images/amazon-clone.png",
     gitUrl: "https://github.com/FarahHaniB/amazon-clone-nextjs",
     previewUrl: "https://amazon-clone-nextjs-iota.vercel.app",
